@@ -1,0 +1,471 @@
+{
+   "__MSG_Searching_For_URLs_Please_Wait__": {
+      "description": "Message shown while looking for list of Chapter URLs.",
+      "message": "Поиск адресов. Пожалуйста, подождите."
+   },
+   "__MSG_Shift_Click__": {
+      "description": "Tell user how to shift-click to multiselect.",
+      "message": "Вы можете выделить несколько глав следующим образом: отметьте первую желаемую главу, зажмите клавишу Shift и отметьте последнюю желаемую главу."
+   },
+   "__MSG_button_Advanced_Options__": {
+      "description": "Label on button to toggle showing 'Advanced Options'",
+      "message": "Расширенные настройки"
+   },
+   "__MSG_button_Apply_Changes__": {
+      "description": "Label on button to end manually editing list of URLs to fetch",
+      "message": "Применить изменения"
+   },
+   "__MSG_button_Clear_Url__": {
+      "description": "Label on button to erase the Cover Image URL text",
+      "message": "Очистить адрес"
+   },
+   "__MSG_button_Close_ReadingList__": {
+      "description": "Label on button to stop showing the Reading List",
+      "message": "Закрыть"
+   },
+   "__MSG_button_Copy_Urls_To_Clipboard__": {
+      "description": "Label on button that copies selected chapter URLs to clipboard",
+      "message": "Копировать ссылки"
+   },
+   "__MSG_button_Edit_Chapter_Urls__": {
+      "description": "Label on button to allow manually editing list of URLs to fetch",
+      "message": "Править список ссылок"
+   },
+   "__MSG_button_Help__": {
+      "description": "Label on button launch help page",
+      "message": "Справка..."
+   },
+   "__MSG_button_Pack_EPUB__": {
+      "description": "Label on button to create the EPUB",
+      "message": "Упаковать EPUB"
+   },
+   "__MSG_button_Reload__": {
+      "description": "Label on 'Reload' button under 'Developer Stuff'",
+      "message": "Перезагрузить"
+   },
+   "__MSG_button_Remove__": {
+      "description": "Label on button to remove an entry from Reading List",
+      "message": "Удалить"
+   },
+   "__MSG_button_Reset__": {
+      "description": "Label on button that clears the dialog",
+      "message": "Сброс"
+   },
+   "__MSG_button_Reset_stylesheet__": {
+      "description": "Label on button to remove all changes to stylesheet and set to default value",
+      "message": "Сбросить стили к первоначальным"
+   },
+   "__MSG_button_Reverse_Chapter_Urls_Order__": {
+      "description": "Label on button to change order of chapters from last to first",
+      "message": "Изменить порядок ссылок на главы"
+   },
+   "__MSG_button_Select_All__": {
+      "description": "Label on button to set all chapters to selected",
+      "message": "Выбрать всё"
+   },
+   "__MSG_button_Unselect_All__": {
+      "description": "Label on button to unselect all chapters",
+      "message": "Сбросить выделение"
+   },
+   "__MSG_button_View_Reading_List__": {
+      "description": "Label on button to show Reading List",
+      "message": "Просмотр Списка для чтения"
+   },
+   "__MSG_button_Write_Options_to_file__": {
+      "description": "Label on button to write options to a file",
+      "message": "Сохранить настройки в файл"
+   },
+   "__MSG_button_error_Cancel__": {
+      "description": "Label on 'Cancel' button when show error",
+      "message": "Отмена"
+   },
+   "__MSG_button_error_OK__": {
+      "description": "Label on 'OK' button when show error",
+      "message": "OK"
+   },
+   "__MSG_button_error_Retry__": {
+      "description": "Label on 'Retry' button when show error",
+      "message": "Повторить"
+   },
+   "__MSG_button_error_Skip__": {
+      "description": "Label on 'Skip' button when show error",
+      "message": "Пропустить"
+   },
+   "__MSG_button_finished_default_parser__": {
+      "description": "Label on button to finish configuring default parser",
+      "message": "Применить"
+   },
+   "__MSG_button_load_and_analyse__": {
+      "description": "Label on button to try loading url given by 'Starting URL'",
+      "message": "Загрузить и анализировать"
+   },
+   "__MSG_button_test_default_parser__": {
+      "description": "Label on button to test default parser settings",
+      "message": "Тест"
+   },
+   "__MSG_column_Include__": {
+      "description": "The 'include this chapter' checkbox column in the table of chapters.",
+      "message": "Включать?"
+   },
+   "__MSG_column_Title__": {
+      "description": "The 'name of chapter' column in the table of chapters.",
+      "message": "Название:"
+   },
+   "__MSG_column_URL__": {
+      "description": "The 'URL to get chapter from' column in the table of chapters.",
+      "message": "Адрес:"
+   },
+   "__MSG_label_Advanced_Options_Visible_By_Default__": {
+      "description": "Label for checkbox to make Advanced Options visible when UI opens",
+      "message": "Расширенные настройки видны по умолчанию"
+   },
+   "__MSG_label_Author__": {
+      "description": "Label in front input for novel's Author",
+      "message": "Автор:"
+   },
+   "__MSG_label_Auto_Parser_Select_Includes_Baka_Tsuki_Series_Page_Parser__": {
+      "description": "Label for checkbox to toggle logic that picks parser to use for a web page to include the Baka-Tsuki Series Page Parser",
+      "message": "Автоматический подбор парсера будет пробовать Baka-Tsuki Series Page Parser"
+   },
+   "__MSG_label_Chapter_Count__": {
+      "description": "Label for number of chapters in range",
+      "message": "Количество глав:"
+   },
+   "__MSG_label_Chapters_Page_In_Chapters_List__": {
+      "description": "Label for checkbox to toggle adding the page with chapters to list of pages to fetch",
+      "message": "Добавить в оглавление страницу со списком глав"
+   },
+   "__MSG_label_Cover_Image_URL__": {
+      "description": "Label for input to give cover image as URL",
+      "message": "Адрес для загрузки обложки:"
+   },
+   "__MSG_label_Cover_from_URL__": {
+      "description": "Label for checkbox to toggle between picking cover image from list or with a URL",
+      "message": "Загрузить другую обложку:"
+   },
+   "__MSG_label_Create_Epub_3__": {
+      "description": "Label for checkbox to choose between EPUB 2 and 3",
+      "message": "Создать EPUB 3"
+   },
+   "__MSG_label_Default_Parser_Chapter_Title_CSS__": {
+      "description": "Label in front of input for CSS selector to find element holding title of a chapter",
+      "message": "CSS-селектор элемента, в котором содержится название главы:"
+   },
+   "__MSG_label_Default_Parser_Content_CSS__": {
+      "description": "Label in front of input for CSS selector to find element holding content to put into EPUB",
+      "message": "(обязательно) CSS-селектор элемента, содержимое которого будет помещено в EPUB:"
+   },
+   "__MSG_label_Default_Parser_HostName__": {
+      "description": "Label in front of input for hostname in URL to use these settings for.",
+      "message": "Домен сайта:"
+   },
+   "__MSG_label_Default_Parser_Test_Chapter_Url__": {
+      "description": "Label in front of input for URL to test default parser settings.",
+      "message": "Адрес первой главы:"
+   },
+   "__MSG_label_Default_Parser_Unwanted_Elements_CSS__": {
+      "description": "Label in front input for CCS selector for elements to remove",
+      "message": "CSS-селектор элемента(ов), которые будут удалены:"
+   },
+   "__MSG_label_Developer_Stuff__": {
+      "description": "Label for checkbox to show/hide buttons for developer testing (in Advanced settings).",
+      "message": "Инструменты разработчика:"
+   },
+   "__MSG_label_Disable_Image_Res_Error__": {
+      "description": "Label for checkbox to disable warnings when high resolution image fetch fails and lower resolution is used instead",
+      "message": "Отключить предупреждения о сбое высокого разрешения изображений"
+   },
+   "__MSG_label_Disable_Shift_Click_Alert__": {
+      "description": "Label for checkbox to disable the alert shown when user shift-clicks to select multiple chapters",
+      "message": "Отключить предупреждение при Shift+клик выборе"
+   },
+   "__MSG_label_Disable_Webp_Image_Format_Error__": {
+      "description": "Label for checkbox to disable warnings that WebP format images may not render in epub viewers",
+      "message": "Отключить предупреждения о совместимости формата WebP"
+   },
+   "__MSG_label_Element_With_Chapter_Content__": {
+      "description": "Label in front input for type of element holding each chapter's content",
+      "message": "Элемент с содержимым главы:"
+   },
+   "__MSG_label_Fetch_Highest_Resolution_Images__": {
+      "description": "Label for checkbox to get EPUB to include highest resolution images available (in Advanced settings).",
+      "message": "Отдавать предпочтение изображениям с высоким разрешением"
+   },
+   "__MSG_label_File_Author_as__": {
+      "description": "Label in front of input for author's name should be filed (in Advanced settings).",
+      "message": "Автор:"
+   },
+   "__MSG_label_Filename__": {
+      "description": "Label in front input for file to save EPUB as",
+      "message": "Имя файла:"
+   },
+   "__MSG_label_Include_URL_of_Images__": {
+      "description": "Label for checkbox to record source URL of images into EPUB (in Advanced settings).",
+      "message": "Включить адреса изображений"
+   },
+   "__MSG_label_Include_in_Reading_List__": {
+      "description": "Label for checkbox to add/remove title from Reading List of tracked titles.",
+      "message": "Добавить в Список для чтения"
+   },
+   "__MSG_label_Language__": {
+      "description": "Label in front input for language EPUB will be in",
+      "message": "Язык:"
+   },
+   "__MSG_label_Manually_Select_Parser__": {
+      "description": "Label for menu to change parser (in advanced options section)",
+      "message": "Выбрать парсер вручную:"
+   },
+   "__MSG_label_Max_pages_to_fetch_simultaneously__": {
+      "description": "Label for drop down for maximum number of web pages to request at same time",
+      "message": "Максимальное кол-во страниц, загружаемых одновременно"
+   },
+   "__MSG_label_No_Download_Popup__": {
+      "description": "Label for checkbox to download the final epub without a popup",
+      "message": "Сохранение epub в фоновом режиме"
+   },
+   "__MSG_label_Range_End_Chapter__": {
+      "description": "Label in front of drop down for selecting last chapter to include in epub",
+      "message": "Последняя глава:"
+   },
+   "__MSG_label_Range_Start_Chapter__": {
+      "description": "Label in front of drop down for selecting first chapter to include in epub",
+      "message": "Первая глава:"
+   },
+   "__MSG_label_Read_Options_from_file__": {
+      "description": "Label in front of button to read Options from a file",
+      "message": "Загрузить настройки из файла:"
+   },
+   "__MSG_label_Remove_Author_Notes__": {
+      "description": "Label for checkbox to remove Author Notes from chapters",
+      "message": "Удалить авторские заметки"
+   },
+   "__MSG_label_Remove_Duplicate_Images__": {
+      "description": "Label for checkbox to remove duplicate images from gallery (in cover images section)",
+      "message": "Удалить дубликаты изображений:"
+   },
+   "__MSG_label_Remove_Original__": {
+      "description": "Label for checkbox to remove Original text from chapters",
+      "message": "Удалить оригинальный (необработанный) текст"
+   },
+   "__MSG_label_Remove_Superscript_From_Alternate_Translations__": {
+      "description": "Label for checkbox to convert superscripted alternate translations into inline text",
+      "message": "Удалить из текста альтернативные варианты перевода"
+   },
+   "__MSG_label_Series__": {
+      "description": "Label in front input for series Novel is part of",
+      "message": "Серия:"
+   },
+   "__MSG_label_Starting_URL__": {
+      "description": "Label in front of 'URL' input",
+      "message": "Начальный адрес:"
+   },
+   "__MSG_label_Stylesheet__": {
+      "description": "Label in front of edit field for setting the stylesheet (in Advanced settings).",
+      "message": "Стили:"
+   },
+   "__MSG_label_Title__": {
+      "description": "Label in front of input for Novel's title.",
+      "message": "Название:"
+   },
+   "__MSG_label_Translator__": {
+      "description": "Label in front of input for Translator (in Advanced settings).",
+      "message": "Переводчик:"
+   },
+   "__MSG_label_Use_SVG_for_Images__": {
+      "description": "Label in front of checkbox to choose between \u003Cimg> and \u003Csvg> elements for images.",
+      "message": "Использовать \u003Csvg> для изображений"
+   },
+   "__MSG_label_Using_Default_Parser__": {
+      "description": "Warning message when can't figure out how to extract info from web page.",
+      "message": "Не удалось подобрать парсер. Используется парсер по-умолчанию. Пожалуйста, укажите, как именно получать содержимое страниц."
+   },
+   "__MSG_label_Volume__": {
+      "description": "Label in front of input for novel's position in series.",
+      "message": "Том в серии:"
+   },
+   "__MSG_label_Write_Error_History_To_File__": {
+      "description": "Label for checkbox to write recent error messages to file",
+      "message": "Записывать ошибки в файл"
+   },
+   "__MSG_option_Class_Is__": {
+      "description": "Content is element of specified class.",
+      "message": "Class является"
+   },
+   "__MSG_option_Class_Starts_With__": {
+      "description": "Content is element having a class name starting with.",
+      "message": "Class начинается с"
+   },
+   "__MSG_option_First_Found__": {
+      "description": "Content is first element of specified type found.",
+      "message": "Первый найденный"
+   },
+   "__MSG_option_ID_Is__": {
+      "description": "Content is element with specified ID.",
+      "message": "ID является"
+   },
+   "__MSG_option_ID_Starts_With__": {
+      "description": "Content is element having an ID starting with.",
+      "message": "ID начинается с"
+   },
+   "convertToXhtmlWarning": {
+      "description": "Warning message when try to fetch an image and instead get HTML",
+      "message": "Внимание: не получилось конвертировать главу '$chapter$' по адресу '$url$' в валидный XHTML. Ваша EPUB-читалка может не прочитать эту главу. Возможно, вам придётся исправить эту главу вручную в Calibre. \r\nОшибки конвертации: ($error$)",
+      "placeholders": {
+         "chapter": {
+            "content": "$1"
+         },
+         "error": {
+            "content": "$3"
+         },
+         "url": {
+            "content": "$2"
+         }
+      }
+   },
+   "defaultAuthor": {
+      "description": "Default author value to use when one is not supplied",
+      "message": "Автор не задан"
+   },
+   "defaultTitle": {
+      "description": "Default UUID value to use when one is not supplied",
+      "message": "Название не задано"
+   },
+   "defaultUUID": {
+      "description": "Default UUID value to use when one is not supplied",
+      "message": "UUID не задано"
+   },
+   "errorContentNotFound": {
+      "description": "Warning message when can't find content element for a web page",
+      "message": "Не найден элемент с содержимым на странице '$url$'.",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "errorIllegalFileName": {
+      "description": "Warning message when filename isn't legal",
+      "message": "Имя файла '$filename$' не должно содержать следующие символы: $illegalCharacters$",
+      "placeholders": {
+         "filename": {
+            "content": "$1"
+         },
+         "illegalCharacters": {
+            "content": "$2"
+         }
+      }
+   },
+   "gotHtmlExpectedImageWarning": {
+      "description": "Warning message when try to fetch an image and instead get HTML",
+      "message": "По адресу '$url$' получена HTML-страница, но ожидалось изображение.",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "htmlFetchFailed": {
+      "description": "Error message when fetch of a web page fails.",
+      "message": "Попытка загрузки адреса '$url$' завершилась с ошибкой сети: $err$.",
+      "placeholders": {
+         "err": {
+            "content": "$2"
+         },
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "httpFetchCanRetry": {
+      "description": "Added message that retrying HTTP operation may succeed.",
+      "message": "Внезапно возникла ошибка. Попробуйте ещё раз."
+   },
+   "imageFetchFailed": {
+      "description": "Error message when fetch of an image file fails.",
+      "message": "Попытка загрузки изображения '$imageUrl$' для страницы '$pageUrl$' завершилась с ошибкой сети: $err$.",
+      "placeholders": {
+         "err": {
+            "content": "$3"
+         },
+         "imageUrl": {
+            "content": "$1"
+         },
+         "pageUrl": {
+            "content": "$2"
+         }
+      }
+   },
+   "imgurFetchFailed": {
+      "description": "Error message when fetch of an image file fails.",
+      "message": "Внимание: попытка загрузить IMGUR-изображение '$imageUrl$' для страницы '$pageUrl$' завершилась с ошибкой сети: $err$.",
+      "placeholders": {
+         "err": {
+            "content": "$3"
+         },
+         "imageUrl": {
+            "content": "$1"
+         },
+         "pageUrl": {
+            "content": "$2"
+         }
+      }
+   },
+   "informationPageTitle": {
+      "description": "Title of page that gives information on epub.",
+      "message": "Информация"
+   },
+   "noChaptersFound": {
+      "description": "Warning message when parser can't find list of chapters.",
+      "message": "Главы не найдены. Возможно, это — не адрес титульной страницы новеллы."
+   },
+   "noChaptersFoundAndFetchClicked": {
+      "description": "Warning message.  Developer has clicked 'Fetch Chapters' when there are none.",
+      "message": "Главы не найдены."
+   },
+   "noImagesFound": {
+      "description": "Warning message.  Developer has clicked 'Fetch Images' when there are none.",
+      "message": "Изображения не найдены."
+   },
+   "noImagesFoundLabel": {
+      "description": "Text put in images table when no images are found.",
+      "message": "Изображений не найдено"
+   },
+   "noParserFound": {
+      "description": "Warning message when can't figure out how to extract info from web page.",
+      "message": "Не удалось подобрать парсер. Используется парсер по-умолчанию. Пожалуйста, укажите, как именно получать содержимое глав."
+   },
+   "setCover": {
+      "description": "Label for checkboxes used to select the cover image.",
+      "message": "Выбрать обложку"
+   },
+   "tableOfContentsUrl": {
+      "description": "Label on information page for URL where Table of Contents came from.",
+      "message": "Адрес содержания:"
+   },
+   "unhandledFieldTypeError": {
+      "description": "Internal message for developer.",
+      "message": "ERROR: Unhandled field type."
+   },
+   "warningNoChapterUrl": {
+      "description": "Warning message when user tries to test the Default Parser without supplying a Chapter URL to test against.",
+      "message": "ОШИБКА: Не указан адрес главы для теста."
+   },
+   "warningNoVisibleContent": {
+      "description": "Warning message when content element for a page has nothing viewable",
+      "message": "Внимание: указанный элемент для страницы '$url$' не имеет видимого содержимого.",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "warningWebpImage": {
+      "description": "Warning message when downloaded image is in webp format",
+      "message": "Внимание: изображение '$filename$' является изображением в формате WEBP. Ваша EPUB-читалка может иметь проблемы с его показом.",
+      "placeholders": {
+         "filename": {
+            "content": "$1"
+         }
+      }
+   }
+}

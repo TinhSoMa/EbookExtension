@@ -1,0 +1,471 @@
+{
+   "__MSG_Searching_For_URLs_Please_Wait__": {
+      "description": "Message shown while looking for list of Chapter URLs.",
+      "message": "Пошук адрес. Будь ласка, зачекайте."
+   },
+   "__MSG_Shift_Click__": {
+      "description": "Tell user how to shift-click to multiselect.",
+      "message": "Ви можете виділити декілька глав наступним чином: відмітьте першу бажану главу, затисніть клавішу Shift та відмітьте останню обрану главу."
+   },
+   "__MSG_button_Advanced_Options__": {
+      "description": "Label on button to toggle showing 'Advanced Options'",
+      "message": "Розширені налаштування"
+   },
+   "__MSG_button_Apply_Changes__": {
+      "description": "Label on button to end manually editing list of URLs to fetch",
+      "message": "Застосувати зміни"
+   },
+   "__MSG_button_Clear_Url__": {
+      "description": "Label on button to erase the Cover Image URL text",
+      "message": "Стерти адресу"
+   },
+   "__MSG_button_Close_ReadingList__": {
+      "description": "Label on button to stop showing the Reading List",
+      "message": "Закрити"
+   },
+   "__MSG_button_Copy_Urls_To_Clipboard__": {
+      "description": "Label on button that copies selected chapter URLs to clipboard",
+      "message": "Копіювати адреси"
+   },
+   "__MSG_button_Edit_Chapter_Urls__": {
+      "description": "Label on button to allow manually editing list of URLs to fetch",
+      "message": "Редагувати список адрес"
+   },
+   "__MSG_button_Help__": {
+      "description": "Label on button launch help page",
+      "message": "Довідка..."
+   },
+   "__MSG_button_Pack_EPUB__": {
+      "description": "Label on button to create the EPUB",
+      "message": "Упаковати EPUB"
+   },
+   "__MSG_button_Reload__": {
+      "description": "Label on 'Reload' button under 'Developer Stuff'",
+      "message": "Перезавантажити"
+   },
+   "__MSG_button_Remove__": {
+      "description": "Label on button to remove an entry from Reading List",
+      "message": "Видалити"
+   },
+   "__MSG_button_Reset__": {
+      "description": "Label on button that clears the dialog",
+      "message": "Очистити"
+   },
+   "__MSG_button_Reset_stylesheet__": {
+      "description": "Label on button to remove all changes to stylesheet and set to default value",
+      "message": "Скинути стилі до початкових"
+   },
+   "__MSG_button_Reverse_Chapter_Urls_Order__": {
+      "description": "Label on button to change order of chapters from last to first",
+      "message": "Змінити порядок посилань на глави"
+   },
+   "__MSG_button_Select_All__": {
+      "description": "Label on button to set all chapters to selected",
+      "message": "Вибрати все"
+   },
+   "__MSG_button_Unselect_All__": {
+      "description": "Label on button to unselect all chapters",
+      "message": "Скасувати виділення"
+   },
+   "__MSG_button_View_Reading_List__": {
+      "description": "Label on button to show Reading List",
+      "message": "Перегляд Списка читання"
+   },
+   "__MSG_button_Write_Options_to_file__": {
+      "description": "Label on button to write options to a file",
+      "message": "Зберегти налаштування у файл"
+   },
+   "__MSG_button_error_Cancel__": {
+      "description": "Label on 'Cancel' button when show error",
+      "message": "Скасувати"
+   },
+   "__MSG_button_error_OK__": {
+      "description": "Label on 'OK' button when show error",
+      "message": "OK"
+   },
+   "__MSG_button_error_Retry__": {
+      "description": "Label on 'Retry' button when show error",
+      "message": "Повторити"
+   },
+   "__MSG_button_error_Skip__": {
+      "description": "Label on 'Skip' button when show error",
+      "message": "Пропустити"
+   },
+   "__MSG_button_finished_default_parser__": {
+      "description": "Label on button to finish configuring default parser",
+      "message": "Застосувати"
+   },
+   "__MSG_button_load_and_analyse__": {
+      "description": "Label on button to try loading url given by 'Starting URL'",
+      "message": "Завантажити та аналізувати"
+   },
+   "__MSG_button_test_default_parser__": {
+      "description": "Label on button to test default parser settings",
+      "message": "Тест"
+   },
+   "__MSG_column_Include__": {
+      "description": "The 'include this chapter' checkbox column in the table of chapters.",
+      "message": "Включати?"
+   },
+   "__MSG_column_Title__": {
+      "description": "The 'name of chapter' column in the table of chapters.",
+      "message": "Назва:"
+   },
+   "__MSG_column_URL__": {
+      "description": "The 'URL to get chapter from' column in the table of chapters.",
+      "message": "Адреса:"
+   },
+   "__MSG_label_Advanced_Options_Visible_By_Default__": {
+      "description": "Label for checkbox to make Advanced Options visible when UI opens",
+      "message": "Розширені налаштування видно за замовчунням"
+   },
+   "__MSG_label_Author__": {
+      "description": "Label in front input for novel's Author",
+      "message": "Автор:"
+   },
+   "__MSG_label_Auto_Parser_Select_Includes_Baka_Tsuki_Series_Page_Parser__": {
+      "description": "Label for checkbox to toggle logic that picks parser to use for a web page to include the Baka-Tsuki Series Page Parser",
+      "message": "Автоматичний підбір парсеру спробує Baka-Tsuki Series Page Parser"
+   },
+   "__MSG_label_Chapter_Count__": {
+      "description": "Label for number of chapters in range",
+      "message": "Кількість глав:"
+   },
+   "__MSG_label_Chapters_Page_In_Chapters_List__": {
+      "description": "Label for checkbox to toggle adding the page with chapters to list of pages to fetch",
+      "message": "Додати у зміст сторінку зі списком глав"
+   },
+   "__MSG_label_Cover_Image_URL__": {
+      "description": "Label for input to give cover image as URL",
+      "message": "Адреса для завантаження обкладинки:"
+   },
+   "__MSG_label_Cover_from_URL__": {
+      "description": "Label for checkbox to toggle between picking cover image from list or with a URL",
+      "message": "Завантажити іншу обкладинку:"
+   },
+   "__MSG_label_Create_Epub_3__": {
+      "description": "Label for checkbox to choose between EPUB 2 and 3",
+      "message": "Створювати EPUB 3"
+   },
+   "__MSG_label_Default_Parser_Chapter_Title_CSS__": {
+      "description": "Label in front of input for CSS selector to find element holding title of a chapter",
+      "message": "CSS-селектор елементу, що містить назву глави:"
+   },
+   "__MSG_label_Default_Parser_Content_CSS__": {
+      "description": "Label in front of input for CSS selector to find element holding content to put into EPUB",
+      "message": "(обов’язково) CSS-селектор елементу, чий вміст буде додано до EPUB:"
+   },
+   "__MSG_label_Default_Parser_HostName__": {
+      "description": "Label in front of input for hostname in URL to use these settings for.",
+      "message": "Домен сайту:"
+   },
+   "__MSG_label_Default_Parser_Test_Chapter_Url__": {
+      "description": "Label in front of input for URL to test default parser settings.",
+      "message": "Адреса першої глави:"
+   },
+   "__MSG_label_Default_Parser_Unwanted_Elements_CSS__": {
+      "description": "Label in front input for CCS selector for elements to remove",
+      "message": "CSS-селектор елементу (елементів), що будуть видалені:"
+   },
+   "__MSG_label_Developer_Stuff__": {
+      "description": "Label for checkbox to show/hide buttons for developer testing (in Advanced settings).",
+      "message": "Інструменти розробника:"
+   },
+   "__MSG_label_Disable_Image_Res_Error__": {
+      "description": "Label for checkbox to disable warnings when high resolution image fetch fails and lower resolution is used instead",
+      "message": "Вимкнути попередження про невдачі високої роздільності зображень"
+   },
+   "__MSG_label_Disable_Shift_Click_Alert__": {
+      "description": "Label for checkbox to disable the alert shown when user shift-clicks to select multiple chapters",
+      "message": "Вимкнути попередження про Shift+клік вибір"
+   },
+   "__MSG_label_Disable_Webp_Image_Format_Error__": {
+      "description": "Label for checkbox to disable warnings that WebP format images may not render in epub viewers",
+      "message": "Вимкнути попередження про сумісність формату WebP"
+   },
+   "__MSG_label_Element_With_Chapter_Content__": {
+      "description": "Label in front input for type of element holding each chapter's content",
+      "message": "Елемент, що містить главу:"
+   },
+   "__MSG_label_Fetch_Highest_Resolution_Images__": {
+      "description": "Label for checkbox to get EPUB to include highest resolution images available (in Advanced settings).",
+      "message": "Надавати перевагу зображенням покращенної якості"
+   },
+   "__MSG_label_File_Author_as__": {
+      "description": "Label in front of input for author's name should be filed (in Advanced settings).",
+      "message": "Автор:"
+   },
+   "__MSG_label_Filename__": {
+      "description": "Label in front input for file to save EPUB as",
+      "message": "Ім’я файлу:"
+   },
+   "__MSG_label_Include_URL_of_Images__": {
+      "description": "Label for checkbox to record source URL of images into EPUB (in Advanced settings).",
+      "message": "Включити адреси зображень"
+   },
+   "__MSG_label_Include_in_Reading_List__": {
+      "description": "Label for checkbox to add/remove title from Reading List of tracked titles.",
+      "message": "Додати у Список читання"
+   },
+   "__MSG_label_Language__": {
+      "description": "Label in front input for language EPUB will be in",
+      "message": "Мова:"
+   },
+   "__MSG_label_Manually_Select_Parser__": {
+      "description": "Label for menu to change parser (in advanced options section)",
+      "message": "Обрати парсер:"
+   },
+   "__MSG_label_Max_pages_to_fetch_simultaneously__": {
+      "description": "Label for drop down for maximum number of web pages to request at same time",
+      "message": "Максимальна кількість сторінок, що завантажуються водночас"
+   },
+   "__MSG_label_No_Download_Popup__": {
+      "description": "Label for checkbox to download the final epub without a popup",
+      "message": "Зберегти epub у фоновому режимі"
+   },
+   "__MSG_label_Range_End_Chapter__": {
+      "description": "Label in front of drop down for selecting last chapter to include in epub",
+      "message": "Остання глава:"
+   },
+   "__MSG_label_Range_Start_Chapter__": {
+      "description": "Label in front of drop down for selecting first chapter to include in epub",
+      "message": "Перша глава:"
+   },
+   "__MSG_label_Read_Options_from_file__": {
+      "description": "Label in front of button to read Options from a file",
+      "message": "Завантажити налаштування з файлу:"
+   },
+   "__MSG_label_Remove_Author_Notes__": {
+      "description": "Label for checkbox to remove Author Notes from chapters",
+      "message": "Видалити авторські замітки"
+   },
+   "__MSG_label_Remove_Duplicate_Images__": {
+      "description": "Label for checkbox to remove duplicate images from gallery (in cover images section)",
+      "message": "Видалити дублікати зображень:"
+   },
+   "__MSG_label_Remove_Original__": {
+      "description": "Label for checkbox to remove Original text from chapters",
+      "message": "Видалити оригінальний (необроблений) текст"
+   },
+   "__MSG_label_Remove_Superscript_From_Alternate_Translations__": {
+      "description": "Label for checkbox to convert superscripted alternate translations into inline text",
+      "message": "Видалити з тексту альтернативні варіанти перекладу"
+   },
+   "__MSG_label_Series__": {
+      "description": "Label in front input for series Novel is part of",
+      "message": "Серія:"
+   },
+   "__MSG_label_Starting_URL__": {
+      "description": "Label in front of 'URL' input",
+      "message": "Початкова адреса:"
+   },
+   "__MSG_label_Stylesheet__": {
+      "description": "Label in front of edit field for setting the stylesheet (in Advanced settings).",
+      "message": "Стилі:"
+   },
+   "__MSG_label_Title__": {
+      "description": "Label in front of input for Novel's title.",
+      "message": "Назва:"
+   },
+   "__MSG_label_Translator__": {
+      "description": "Label in front of input for Translator (in Advanced settings).",
+      "message": "Перекладач:"
+   },
+   "__MSG_label_Use_SVG_for_Images__": {
+      "description": "Label in front of checkbox to choose between \u003Cimg> and \u003Csvg> elements for images.",
+      "message": "Використовувати \u003Csvg> для зображень"
+   },
+   "__MSG_label_Using_Default_Parser__": {
+      "description": "Warning message when can't figure out how to extract info from web page.",
+      "message": "Не вдалося підібрати парсер. Використовується парсер за замовчунням. Будь ласка, вкажіть, як потрібно отримувати вміст сторінок."
+   },
+   "__MSG_label_Volume__": {
+      "description": "Label in front of input for novel's position in series.",
+      "message": "Том у серії:"
+   },
+   "__MSG_label_Write_Error_History_To_File__": {
+      "description": "Label for checkbox to write recent error messages to file",
+      "message": "Зберігати помилки у файл"
+   },
+   "__MSG_option_Class_Is__": {
+      "description": "Content is element of specified class.",
+      "message": "Class з’являється"
+   },
+   "__MSG_option_Class_Starts_With__": {
+      "description": "Content is element having a class name starting with.",
+      "message": "Class починається з"
+   },
+   "__MSG_option_First_Found__": {
+      "description": "Content is first element of specified type found.",
+      "message": "Перший знайдений"
+   },
+   "__MSG_option_ID_Is__": {
+      "description": "Content is element with specified ID.",
+      "message": "ID з’являється"
+   },
+   "__MSG_option_ID_Starts_With__": {
+      "description": "Content is element having an ID starting with.",
+      "message": "ID починається з"
+   },
+   "convertToXhtmlWarning": {
+      "description": "Warning message when try to fetch an image and instead get HTML",
+      "message": "Увага: не вдалося конвертувати главу '$chapter$' за адресою '$url$' у дійсний XHTML. Ваша EPUB-читалка можливо буде неспроможна прочитати цю главу. Можливо вам доведеться виправити цю главу вручну у Calibre. \r\nПомилки конвертації: ($error$)",
+      "placeholders": {
+         "chapter": {
+            "content": "$1"
+         },
+         "error": {
+            "content": "$3"
+         },
+         "url": {
+            "content": "$2"
+         }
+      }
+   },
+   "defaultAuthor": {
+      "description": "Default author value to use when one is not supplied",
+      "message": "Автор не заданий"
+   },
+   "defaultTitle": {
+      "description": "Default UUID value to use when one is not supplied",
+      "message": "Назва не задана"
+   },
+   "defaultUUID": {
+      "description": "Default UUID value to use when one is not supplied",
+      "message": "UUID не задано"
+   },
+   "errorContentNotFound": {
+      "description": "Warning message when can't find content element for a web page",
+      "message": "Не знайдено елемент з вмістом на сторінці '$url$'.",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "errorIllegalFileName": {
+      "description": "Warning message when filename isn't legal",
+      "message": "Ім’я файлу '$filename$' не може містити наступні символи: $illegalCharacters$",
+      "placeholders": {
+         "filename": {
+            "content": "$1"
+         },
+         "illegalCharacters": {
+            "content": "$2"
+         }
+      }
+   },
+   "gotHtmlExpectedImageWarning": {
+      "description": "Warning message when try to fetch an image and instead get HTML",
+      "message": "За адресою '$url$' отримана HTML-сторінка, але очікувалося зображення.",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "htmlFetchFailed": {
+      "description": "Error message when fetch of a web page fails.",
+      "message": "Спроба завантаження адреси '$url$' скінчилася помилкою мережі: $err$.",
+      "placeholders": {
+         "err": {
+            "content": "$2"
+         },
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "httpFetchCanRetry": {
+      "description": "Added message that retrying HTTP operation may succeed.",
+      "message": "Раптово виникла помилка. Будь ласка, спробуйте ще раз."
+   },
+   "imageFetchFailed": {
+      "description": "Error message when fetch of an image file fails.",
+      "message": "Спроба завантаження зображення '$imageUrl$' для сторінки '$pageUrl$' скінчилася помилкою мережі: $err$.",
+      "placeholders": {
+         "err": {
+            "content": "$3"
+         },
+         "imageUrl": {
+            "content": "$1"
+         },
+         "pageUrl": {
+            "content": "$2"
+         }
+      }
+   },
+   "imgurFetchFailed": {
+      "description": "Error message when fetch of an image file fails.",
+      "message": "Увага: спроба завантаження IMGUR-зображення '$imageUrl$' для сторінки '$pageUrl$' скінчилася помилкою мережі: $err$.",
+      "placeholders": {
+         "err": {
+            "content": "$3"
+         },
+         "imageUrl": {
+            "content": "$1"
+         },
+         "pageUrl": {
+            "content": "$2"
+         }
+      }
+   },
+   "informationPageTitle": {
+      "description": "Title of page that gives information on epub.",
+      "message": "Інформація"
+   },
+   "noChaptersFound": {
+      "description": "Warning message when parser can't find list of chapters.",
+      "message": "Глави не знайдено. Можливо, це не є адресою титульною сторінки новели."
+   },
+   "noChaptersFoundAndFetchClicked": {
+      "description": "Warning message.  Developer has clicked 'Fetch Chapters' when there are none.",
+      "message": "Глави не знайдено."
+   },
+   "noImagesFound": {
+      "description": "Warning message.  Developer has clicked 'Fetch Images' when there are none.",
+      "message": "Зображень не знайдено."
+   },
+   "noImagesFoundLabel": {
+      "description": "Text put in images table when no images are found.",
+      "message": "Зображень не знайдено"
+   },
+   "noParserFound": {
+      "description": "Warning message when can't figure out how to extract info from web page.",
+      "message": "Не вдалося підібрати парсер. Використовується парсер за замовчунням. Будь ласка, вкажіть, як потрібно отримувати вміст глав."
+   },
+   "setCover": {
+      "description": "Label for checkboxes used to select the cover image.",
+      "message": "Обрати обкладинку"
+   },
+   "tableOfContentsUrl": {
+      "description": "Label on information page for URL where Table of Contents came from.",
+      "message": "Адреса змісту:"
+   },
+   "unhandledFieldTypeError": {
+      "description": "Internal message for developer.",
+      "message": "ERROR: Unhandled field type."
+   },
+   "warningNoChapterUrl": {
+      "description": "Warning message when user tries to test the Default Parser without supplying a Chapter URL to test against.",
+      "message": "ПОМИЛКА: Не вказано адресу глави для тесту."
+   },
+   "warningNoVisibleContent": {
+      "description": "Warning message when content element for a page has nothing viewable",
+      "message": "Увага: вказаний елемент для сторінки '$url$' не має наявного вмісту.",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "warningWebpImage": {
+      "description": "Warning message when downloaded image is in webp format",
+      "message": "Увага: зображення '$filename$' з’являється зображенням у форматі WEBP. Ваша EPUB-читалка може мати проблеми з його показом.",
+      "placeholders": {
+         "filename": {
+            "content": "$1"
+         }
+      }
+   }
+}

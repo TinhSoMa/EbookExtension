@@ -1,0 +1,20 @@
+{
+   "action": {
+      "default_icon": "book128.png",
+      "default_popup": "popup.html",
+      "default_title": ""
+   },
+   "default_locale": "en",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "book128.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtjTacaSQRYdM2m6FORQEJS4n/dU3w/NxisENYpj3jbWFH7kG4K0TYmDLifSeh3hDFCeLJa4IlLNpv54688DTEEWePcbESPWdG2359u5he3a+Y9yXTrFe5ftYhR1HJH4wBOlh3n7fEGnXxDJz1Mk/UHrP3ryd7eA3okgW9CyAT8ibg6eq7kbZVxcIOwteHUcpK0ThKG9m5VHqdyjR4hrS8CeFBJL/dIjqbyZGcNyzrtH4vkRf/uCXieugQksZl9AwVhf0MfpOoByQIaMBI1s2J6UAQzQCmQUGe6LN8bBRgloAxCpRUGebqzFi1zFmEQy0l2nZZi4u0Z6tNL2jr0OlYwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "120",
+   "name": "WebToEpub",
+   "permissions": [ "cookies", "downloads", "declarativeNetRequest", "scripting", "storage", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.11.0"
+}
