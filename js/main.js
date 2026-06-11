@@ -13,7 +13,7 @@ var main = (function() {
             util.log(message);
             // convert the string returned from content script back into a DOM
             let dom = new DOMParser().parseFromString(message.document, "text/html");
-            populateControlsWithDom(message.url, dom);
+            populateControlsWithDom(message.url, dom, message.authStorage);
         }
     }
 
@@ -269,8 +269,11 @@ var main = (function() {
         return !util.isNullOrEmpty(search);
     }
 
-    async function populateControlsWithDom(url, dom) {
+    async function populateControlsWithDom(url, dom, authStorage) {
         initialWebPage = dom;
+        if (!util.isNullOrEmpty(authStorage)) {
+            initialWebPage._authStorage = authStorage;
+        }
         setUiFieldToValue("startingUrlInput", url);
 
         // set the base tag, in case server did not supply it 

@@ -263,21 +263,50 @@ class HttpClient {
             
             //set domain to the highest level from the website as all subdomains are included #1447 #1445
             let urlparts = parsedUrl.hostname.split(".");
-            let cookies = "";
-            if (!util.isFirefox()) {
-                cookies = await chrome.cookies.getAll({domain: urlparts[urlparts.length-2]+"."+urlparts[urlparts.length-1],partitionKey: {}});
-            } else {
-                cookies = await browser.cookies.getAll({domain: urlparts[urlparts.length-2]+"."+urlparts[urlparts.length-1],partitionKey: {}});
+            let domain = urlparts[urlparts.length - 2] + "." + urlparts[urlparts.length - 1];
+            let topLevelSite = parsedUrl.origin;
+
+            let cookies = [];
+            let queries = [
+                { domain: domain, partitionKey: { topLevelSite: topLevelSite } },
+                { domain: domain, partitionKey: {} },
+                { domain: domain }
+            ];
+
+            for (let query of queries) {
+                let batch = [];
+                if (!util.isFirefox()) {
+                    batch = await chrome.cookies.getAll(query);
+                } else {
+                    batch = await browser.cookies.getAll(query);
+                }
+                if (Array.isArray(batch) && (0 < batch.length)) {
+                    cookies = cookies.concat(batch);
+                }
             }
-            cookies = cookies.filter(item => item.partitionKey != undefined);
-            //create new cookies for the site without the partitionKey
-            //cookies without the partitionKey get sent with fetch
-            cookies.forEach(element => chrome.cookies.set({
-                domain: element.domain,
-                url: "https://"+element.domain.substring(1),
-                name: element.name, 
-                value: element.value
-            }));
+
+            // Only copy partitioned cookies into unpartitioned storage
+            let seen = new Set();
+            cookies.filter(item => item.partitionKey != undefined).forEach(element => {
+                let key = `${element.name}|${element.domain}|${element.path || ""}|${element.partitionKey?.topLevelSite || ""}`;
+                if (seen.has(key)) {
+                    return;
+                }
+                seen.add(key);
+
+                // cookies without the partitionKey get sent with fetch
+                chrome.cookies.set({
+                    domain: element.domain,
+                    url: "https://" + element.domain.substring(1),
+                    name: element.name,
+                    value: element.value,
+                    path: element.path,
+                    secure: element.secure,
+                    httpOnly: element.httpOnly,
+                    sameSite: element.sameSite,
+                    expirationDate: element.expirationDate
+                });
+            });
         } catch {
             // Probably running browser that doesn't support partitionKey, e.g. Kiwi
             console.log("failed to set cookie");
